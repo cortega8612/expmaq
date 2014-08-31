@@ -30,8 +30,9 @@ h2 {
  font-family: Helvetica;
 }
 
+.ula {list-style-type: circle;}
+
 .navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {color: #00aaee;
-margin-top: 7px;
 
 }
 
@@ -51,6 +52,15 @@ margin-top: 7px;
 	padding-top: 10px;
   color: #FFF;
 }
+
+#sticky-footer {
+    position: fixed;
+    z-index: 20;
+    min-height: 42px;
+    bottom: 0;
+    width: 100%;
+}
+
 
 .pull-left img { margin-right: 20px; }
 
