@@ -1,3 +1,5 @@
+@import url('bootstrap.min.css');
+
 body {
   padding-top: 120px;
   font-size: 18px;
@@ -8,10 +10,13 @@ body {
 /* body full image*/
 
 .body1 {
-  background: url('/img/C_Ltrain.jpg') no-repeat center center fixed;
+  background: url('/img/IMG_8625.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    /* body full image option
+    background-size: 100% auto;
+    */
     background-size: cover;
     color:#fff;
     background-color:#333;
