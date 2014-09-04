@@ -1,6 +1,7 @@
 port: 4000
 # Site settings
 title: Expansion Maquinados Industriales
+description: Expansion en Maquinados Industriales
 email: your-email@domain.com
 
 # Build settings
