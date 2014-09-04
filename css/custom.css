@@ -1,16 +1,44 @@
-@import url('bootstrap.min.css');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+@import url('/css/bootstrap.min.css');
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
+@import url("http://fonts.googleapis.com/css?family=Raleway");
+@import url("http://fonts.googleapis.com/css?family=Satisfy");
+@import url("http://fonts.googleapis.com/css?family=Lato:300");
 
 body {
   padding-top: 120px;
-  font-size: 18px;
+  font-size: 16px;
   /* sticky footer height*/
   margin-bottom: 50px;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+h1, h2, h3 { 
+  padding-top: 70px; 
+  margin-top: -70px;
+  color:#FFF; 
+}
+
+h2 {
+ color: #4E4F4A;
+ font-family: Helvetica;
+}
+
+p {
+  font-family: 'lato';
+  color:#FFF;
 }
 
 /* body full image*/
 
 .body1 {
-  background: url('/img/IMG_8625.jpg') no-repeat center center fixed;
+  background: url('/img/IMG_8635.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,6 +49,7 @@ body {
     color:#fff;
     background-color:#333;
     font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+    margin-bottom: 50px;
 }
 
 .body2 {
@@ -33,51 +62,26 @@ body {
     font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
 }
 
-.block {
-  background-color:rgba(0,0,0,0.2);
-    height:370px;
-    padding-left:12px;
-    padding-right:12px;
+
+
+/* Navbar */
+.navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: #2980b9;
+  font-size: 15px;
+  font-family: 'lato';
 }
 
+.navbar-inverse {background-color: #FFF;}
 
-
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-
-.vcenter {
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
-
-a, a:hover {
-color: #00aaee;
-}
-
-h1, h2, h3 { padding-top: 70px; margin-top: -70px; }
-
-h2 {
- color: #4E4F4A;
- font-family: Helvetica;
-}
-
-.ula {list-style-type: circle;}
-
-.navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {color: #2980b9;
-  font-size: 16px;
-
+ul.nav a:hover { 
+  color: #bdc3c7 !important; 
 }
 
 #logo img { margin: 5px 0 3px 0;}
 
-.navbar-inverse {background-color: #FFFFFF;}
 
+
+/* Footer */
 
 .footer {
   position: absolute;
@@ -91,26 +95,19 @@ h2 {
 .footer p{
 	padding-top: 5px;
   color: #2980b9;
+  font-size: 15px;
+  font-family: 'Raleway';
 }
 
 .vcenterf {
     text-align: center;
     vertical-align: middle;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
 .pull-left img { margin-right: 20px; }
 
-.project img {margin-top: 20px; margin-bottom: 20px;}
-
-
-/* Responsive */
-@media (max-width: 767px) {
-  .js-video {
-    padding-top: 0;
-  }
-}
 
 /* Contact form */
 
@@ -119,5 +116,21 @@ h2 {
 }
 
 
+.vcenter {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
+
+.block-text { 
+   color: white; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.ula {list-style-type: circle;}
 
