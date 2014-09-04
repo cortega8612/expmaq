@@ -30,7 +30,7 @@ hr { display: block; height: 2px;
 h1, h2, h3 { 
   padding-top: 70px; 
   margin-top: -70px;
-  color:#FFF; 
+  color:#ecf0f1; 
 }
 
 h2 {
@@ -90,6 +90,18 @@ p {
     margin-bottom: 50px;
 }
 
+.body4 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+    background-size: cover;
+    color:#fff;
+    background-color:#333;
+    font-family: 'lato',Arial,Helvetica,Sans-Serif;
+    margin-bottom: 50px;
+}
+
 
 /* Navbar */
 .navbar-header>.navbar-brand, .navbar-inverse .navbar-nav>li>a {
@@ -104,7 +116,7 @@ ul.nav a:hover {
   color: #bdc3c7 !important; 
 }
 
-#logo img { margin: 5px 0 5px 0;}
+#logo img { margin: 3px 0 3px 0;}
 
 /* Footer */
 
@@ -165,4 +177,8 @@ border-radius: 10px; /* future proofing */
 }
 
 .ula {list-style-type: circle;}
+
+/* masonry */
+
+.item { width: 100%; }
 
