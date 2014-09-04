@@ -76,7 +76,7 @@ p {
 }
 
 .body3 {
-  background: url('/img/IMG_8635.jpg') no-repeat center center fixed;
+  background: url('/img/IMG_8655.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -157,7 +157,11 @@ ul.nav a:hover {
    color: white;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
+   padding: 18px;
+   -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
 .ula {list-style-type: circle;}
