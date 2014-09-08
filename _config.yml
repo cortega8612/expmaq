@@ -1,6 +1,5 @@
-port: 4000
+port: 5000
 # Site settings
-baseurl: "http://cortega8612.github.io/expmaq"
 title: Expansion Maquinados Industriales
 description: Expansion en Maquinados Industriales
 email: your-email@domain.com
