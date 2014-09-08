@@ -209,16 +209,3 @@ border-radius: 5px; /* future proofing */
     z-index: 2;
 }
 
-@media (max-width: 767px)and (min-width: 480px) { 
-  header{
-    text-align:center;
-  }
-  .navbar .nav {
-    float:none;
-  }
-  .navbar .nav > li {
-    float: none;
-    display: inline-block;
-  }
-}
-
