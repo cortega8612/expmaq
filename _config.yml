@@ -6,6 +6,3 @@ email: your-email@domain.com
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-sitemap
