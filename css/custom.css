@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   /* sticky footer height*/
   margin-bottom: 50px;
+  padding-top: 120px;
 }
 
 
@@ -34,13 +35,14 @@ h1, h2, h3 {
 }
 
 h2 {
- color: #4E4F4A;
- font-family: Helvetica;
+ color: #ecf0f1;
+ font-family: 'lato';
 }
 
 p {
   font-family: 'lato';
   color:#FFF;
+  font-size: 15px;
 }
 
 /* body full image*/
