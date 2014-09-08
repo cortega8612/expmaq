@@ -28,7 +28,7 @@ hr { display: block; height: 0.5px;
     border: 0; border-top: 1px solid #FFF;
     margin: 1em 0; padding: 0; }
 
-h1, h2, h3 { 
+h1, h2 { 
   padding-top: 70px; 
   margin-top: -70px;
   color:#ecf0f1; 
@@ -36,6 +36,11 @@ h1, h2, h3 {
 
 h2 {
  color: #ecf0f1;
+ font-family: 'lato';
+}
+
+h3 {
+ color: #000;
  font-family: 'lato';
 }
 
@@ -185,6 +190,13 @@ border-radius: 5px; /* future proofing */
   font-family: 'Raleway';
 }
 
+.ula2 {
+  list-style-type: none;
+  font-family: 'Raleway';
+}
+
+
+
 /* masonry */
 
 .item { width: 100%; }
@@ -208,7 +220,7 @@ border-radius: 5px; /* future proofing */
 }
 .active.left,
 .active.right {
-    opacity: 0;
+    opacity: 2;
     z-index: 2;
 }
 
