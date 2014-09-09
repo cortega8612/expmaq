@@ -179,6 +179,7 @@ ul.nav a:hover {
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.6);
    padding: 18px;
+   margin-bottom: 80px;
    -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 border-radius: 5px; /* future proofing */
