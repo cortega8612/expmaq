@@ -177,7 +177,7 @@ ul.nav a:hover {
 .block-text { 
    color: white;  
    background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.6);
+   background: rgba(0, 0, 0, 0.75);
    padding: 18px;
    margin-bottom: 80px;
    -moz-border-radius: 5px;
@@ -185,6 +185,7 @@ ul.nav a:hover {
 border-radius: 5px; /* future proofing */
 -khtml-border-radius: 5px; /* for old Konqueror browsers */
 }
+
 
 .ula {
   list-style-type: circle;
