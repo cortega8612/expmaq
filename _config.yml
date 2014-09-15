@@ -6,3 +6,6 @@ description: Expansion en Maquinados Industriales
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-sitemap
+
